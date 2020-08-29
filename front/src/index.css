@@ -92,7 +92,12 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
+body {
+  background: #444;
+}
+a {
+  text-decoration: none;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

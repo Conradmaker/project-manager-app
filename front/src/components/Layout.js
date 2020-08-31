@@ -99,6 +99,7 @@ const TopHeader = styled.nav`
     color: #fff;
     font-size: 33px;
     font-weight: bold;
+    text-shadow: 0 0 1px rgb(30, 66, 148);
   }
   ul {
     display: flex;
@@ -112,12 +113,13 @@ const TopHeader = styled.nav`
       display: flex;
       align-items: center;
       transition: all 0.3s ease;
+      text-shadow: 0 0 1px rgb(30, 66, 148);
       &:hover {
         transform: translateY(-3px);
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5px rgb(30, 66, 148);
         i {
           transition: all 0.3s ease;
-          box-shadow: 0 0 5px white;
+          box-shadow: 0 0 5px rgb(30, 66, 148);
         }
       }
 
@@ -146,6 +148,8 @@ const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
+
+  z-index: 20;
 `;
 
 export default function Layout({ children }) {

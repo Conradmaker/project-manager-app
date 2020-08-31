@@ -53,6 +53,7 @@ export const Visual = styled.div`
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   h1 {
     margin-top: 160px;
